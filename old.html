@@ -1,0 +1,8 @@
+<h1 id="hi">hhhhh</h1>
+<script type="text/javascript">
+    fetch("/test").then(function(response){
+        response.text().then(function(text){
+            document.querySelector("#hi").innerHTML=text
+        });        
+    })
+</script>

@@ -1,0 +1,20 @@
+Chimo Community Services BC,49.162670,-123.140170,1000,500,-80,32712
+Dwelling Place Women’s Shelter Guelph,43.541630,-80.250070,2000,50,-25,35440
+The Welcome Centre Shelter for Women Windsor,42.314938,-83.036362,700,40,-10,33000
+Peace River Regional Women’s Shelter AB,56.258810,-117.291960,4000,200,-150,42223
+Wellspring Family Resource & Crisis Centre AB,54.141680,-115.688410,800,70,-15,38000
+Yellow Brick House Waterloo,44.0065,-79.4504,1300,400,-200,32994
+Red Cross Thunder Bay,48.3809,-89.2477,458,199,-40,35788,
+Christine Lamb Residence BC,49.063042,-122.251350,350,20,-2,36300
+Anselma House Kitchener,43.4516,-80.4925,3999,79,-34,51000
+Kiosan Second Stage Housing St. Thomas,42.7777,-81.1827,456,16,-8,31330
+Violence Against Women St. Thomas,42.778780,-81.175390,300,100,-50,32400
+Hiatus House Windsor,42.3149,-83.0364,7849,890,-400,28862
+Serenity Place St. Thomas,42.779430,-81.189250,600,60,-50,32372
+Interval House Hamilton,43.256531,-79.874420,150,75,-20,38232
+The Redwood Toronto,43.6532,-79.3832,145,48,-25,30089
+La Maison Benoit Labre QC,45.473860,-73.588100,100,20,-7,32600
+Our Place Peel Mississauga,43.620920,-79.599660,300,40,-25,31045
+Marianne’s Place Guelph,43.5448,-80.2482,738,126,-80,37540
+Victim Services of Peel Brampton,43.660809,-79.727539,400,250,-70,31000
+Nova Vita Domestic Violence Prevention Services Brantford,43.156270,-80.269690,300,50,-30,34366

@@ -1,0 +1,39 @@
+<Head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</Head>
+
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <label>Fundraised Product</label>
+    <input type="text" id="product" />
+
+    <label>How many?</label>
+    <input type="num" id="count"/>
+
+    <br>
+
+    <label> Company Address</label>
+    <input type="text" id="address" />
+
+    <label>Radius You Are Comfortable Distributing To (km) </label>
+    <input type="text" id="radius" />
+
+    <br>
+    <br>
+
+    <button id="calculate">Calculate How to Distribute Your Products</button>
+    <div id="content"></div>
+    <script type="text/javascript">
+        $('#calculate').click(function() {
+            const x = 230;
+            $('#content').html(`
+                <br>
+                <h5>Yellow Brick House - ${x + 5} </h5>
+                <h5> Participation House - 70 </h5>
+                <h5>United Way of Greater Toronto - 200</h5>
+            `);
+        });
+    </script>
+</body>

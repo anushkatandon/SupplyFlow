@@ -1,0 +1,27 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<label>Shelter ID</label>
+<input type="text" id="shelter" />
+<label>Inventory Count</label>
+<input type="number" id="count"/>
+<button id="get_inventory">Get Inventory</button>
+<button id="update_inventory">Update Inventory</button>
+<script type="text/javascript">
+    $('#get_inventory').click(function() {
+        const shelter = $('#shelter').val();
+        $.get('/inventory?type=diapers&shelter=' + shelter, function(result){
+            $('#count').val(result.count);
+        });
+    });
+    $('#update_inventory').click(function() {
+        const shelter = $('#shelter').val();
+        const count = Number($('#count').val());
+        $.ajax({
+            url: '/inventory?type=diapers&shelter=' + shelter,
+            type: 'POST',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify({count: count})
+        });
+    })
+</script>
