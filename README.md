@@ -1,4 +1,4 @@
-# Supply-Flow---StarterHacks-
+# StarterHacks: Supply Flow-
 
 Designed a website that allows homeless shelters to update and publish their inventories so that volunteer organizations 
 know how to distribute their donations.
